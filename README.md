@@ -1,2 +1,2 @@
-# magento_single_product
+# Magento Single Product
 Each Plugin for Each Payment Method
