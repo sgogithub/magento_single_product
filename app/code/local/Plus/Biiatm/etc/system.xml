@@ -67,6 +67,16 @@
               <show_in_store>0</show_in_store>
               <sort_order>5</sort_order>
             </order_status>
+            <payment_accepted_status translate="label">
+              <label>Payment Accepted Status</label>
+              <frontend_type>select</frontend_type>
+              <config_path>payment/biiatm/accepted_payment_status</config_path>
+              <source_model>adminhtml/system_config_source_order_status</source_model>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>0</show_in_store>
+              <sort_order>6</sort_order>
+            </payment_accepted_status>
             <allowspecific translate="label">
               <label>Payment from applicable countries</label>
               <frontend_type>allowspecific</frontend_type>
@@ -74,7 +84,7 @@
               <show_in_default>1</show_in_default>
               <show_in_website>1</show_in_website>
               <show_in_store>1</show_in_store>
-              <sort_order>6</sort_order>
+              <sort_order>7</sort_order>
             </allowspecific>
             <specificcountry translate="label">
               <label>Payment from Specific countries</label>
@@ -83,12 +93,12 @@
               <show_in_default>1</show_in_default>
               <show_in_website>1</show_in_website>
               <show_in_store>1</show_in_store>
-              <sort_order>7</sort_order>
+              <sort_order>8</sort_order>
             </specificcountry>
             <min_order_total translate="label">
                 <label>Minimum Order Total</label>
                 <frontend_type>text</frontend_type>
-                <sort_order>8</sort_order>
+                <sort_order>9</sort_order>
                 <show_in_default>1</show_in_default>
                 <show_in_website>1</show_in_website>
                 <show_in_store>0</show_in_store>
@@ -96,7 +106,7 @@
             <max_order_total translate="label">
                 <label>Maximum Order Total</label>
                 <frontend_type>text</frontend_type>
-                <sort_order>9</sort_order>
+                <sort_order>10</sort_order>
                 <show_in_default>1</show_in_default>
                 <show_in_website>1</show_in_website>
                 <show_in_store>0</show_in_store>

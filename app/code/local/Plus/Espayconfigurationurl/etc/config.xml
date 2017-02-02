@@ -1,0 +1,22 @@
+<?xml version="1.0"?>   
+<config>    
+    <modules>
+        <Plus_Espayconfigurationurl>
+            <version>1.0.0.0</version>
+        </Plus_Espayconfigurationurl>
+    </modules>
+    <frontend>
+        <routers>
+            <!-- the <helloworld> tagname appears to be arbitrary, but by 
+            convention is should match the frontName tag below-->
+            <helloworld> 
+                <use>standard</use>
+                <args>
+                    <module>Plus_Espayconfigurationurl</module>
+                    <frontName>espay</frontName>
+                </args>
+            </helloworld>
+        </routers>
+    </frontend>
+
+</config>
