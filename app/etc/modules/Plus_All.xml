@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Plus_Espaypaymentmethod>
+            <active>false</active>
+            <codePool>local</codePool>
+
+            <depends>
+                <Mage_Payment />
+            </depends>
+        </Plus_Espaypaymentmethod>
+        <Plus_Mandiriib>
+            <active>true</active>
+            <codePool>local</codePool>
+
+            <depends>
+                <Mage_Payment />
+            </depends>
+        </Plus_Mandiriib>
+         <Plus_Biiatm>
+            <active>true</active>
+            <codePool>local</codePool>
+
+            <depends>
+                <Mage_Payment />
+            </depends>
+        </Plus_Biiatm>
+          <Plus_Espayconfigurationurl>
+            <active>true</active>
+            <codePool>local</codePool>
+
+            
+        </Plus_Espayconfigurationurl>
+    </modules>
+  
+</config>
