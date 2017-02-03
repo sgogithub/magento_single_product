@@ -17,7 +17,7 @@
                 <Mage_Payment />
             </depends>
         </Plus_Mandiriib>
-         <Plus_Biiatm>
+        <Plus_Biiatm>
             <active>true</active>
             <codePool>local</codePool>
 
@@ -25,7 +25,71 @@
                 <Mage_Payment />
             </depends>
         </Plus_Biiatm>
-          <Plus_Espayconfigurationurl>
+        <Plus_Permataatm>
+            <active>true</active>
+            <codePool>local</codePool>
+
+            <depends>
+                <Mage_Payment />
+            </depends>
+        </Plus_Permataatm>
+        <Plus_Permatanetpay>
+            <active>true</active>
+            <codePool>local</codePool>
+
+            <depends>
+                <Mage_Payment />
+            </depends>
+        </Plus_Permatanetpay>
+        <Plus_Creditcard>
+            <active>true</active>
+            <codePool>local</codePool>
+
+            <depends>
+                <Mage_Payment />
+            </depends>
+        </Plus_Creditcard>
+        <Plus_Epaybri>
+            <active>true</active>
+            <codePool>local</codePool>
+
+            <depends>
+                <Mage_Payment />
+            </depends>
+        </Plus_Epaybri>
+         <Plus_Mandiriecash>
+            <active>true</active>
+            <codePool>local</codePool>
+
+            <depends>
+                <Mage_Payment />
+            </depends>
+        </Plus_Mandiriecash>
+         <Plus_Bcaklikpay>
+            <active>true</active>
+            <codePool>local</codePool>
+
+            <depends>
+                <Mage_Payment />
+            </depends>
+        </Plus_Bcaklikpay>
+        <Plus_Bcaatm>
+            <active>true</active>
+            <codePool>local</codePool>
+
+            <depends>
+                <Mage_Payment />
+            </depends>
+        </Plus_Bcaatm>
+        <Plus_Finpay195>
+            <active>true</active>
+            <codePool>local</codePool>
+
+            <depends>
+                <Mage_Payment />
+            </depends>
+        </Plus_Finpay195>
+        <Plus_Espayconfigurationurl>
             <active>true</active>
             <codePool>local</codePool>
 
