@@ -40,7 +40,7 @@
           var data = {
                    paymentId: '<?php echo $orderId;?>',
                    key: '<?php echo $key;?>',
-                   backUrl: escape('<?php echo Mage::helper('biiatm')->getBackUrl($productCode, $orderId); ?>'),
+                   backUrl: escape('<?php echo Mage::helper('mandiriecash')->getBackUrl($productCode, $orderId); ?>'),
                    bankCode:'<?= $bankCode?>',
                    bankProduct :'<?= $productCode?>'
                },
