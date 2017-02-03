@@ -12,7 +12,7 @@
           <fields>
             <server_key_v2>
               <label>Payment Key</label>
-              <config_path>payment/espay/paymentid</config_path>
+              <config_path>payment/mandiriib/paymentid</config_path>
               <frontend_type>text</frontend_type>
               <sort_order>1</sort_order>
               <show_in_default>1</show_in_default>
