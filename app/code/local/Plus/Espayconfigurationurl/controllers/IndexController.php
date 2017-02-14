@@ -109,7 +109,7 @@ class Plus_Espayconfigurationurl_IndexController extends Mage_Core_Controller_Fr
         $paymentRef = $this->getRequest()->getPost('payment_ref');
         $signature = $this->getRequest()->getPost('signature');
         $rqDatetime = $this->getRequest()->getPost('rq_datetime');
-        $mode = 'PAYMENT';
+        $mode = 'PAYMENTREPORT';
 
 
         $order = Mage::getModel('sales/order')
@@ -168,7 +168,7 @@ class Plus_Espayconfigurationurl_IndexController extends Mage_Core_Controller_Fr
             }
         } else {
             $status = '1';
-            $message = 'Failed';
+            $message = 'Invalid Signature';
         }
 
         echo $this->_getResponseReport($status, $message, $orderData);
