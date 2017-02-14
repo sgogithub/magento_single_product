@@ -5,7 +5,6 @@
       <groups>
         <biiatm translate="label" module="biiatm">
           <label>Espay BII Virtual Account</label>
-          <sort_order>1000</sort_order>
           <show_in_default>1</show_in_default>
           <show_in_website>1</show_in_website>
           <show_in_store>0</show_in_store>
@@ -28,6 +27,16 @@
               <show_in_website>1</show_in_website>
               <show_in_store>1</show_in_store>
             </service_pass>
+             <singature_pass>
+              <label>Service Signature Password</label>
+              <config_path>payment/biiatm/sigpassword</config_path>
+              <frontend_type>text</frontend_type>
+              <sort_order>2</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </singature_pass>
+           
             <environment>
               <label>Environment</label>
               <config_path>payment/biiatm/environment</config_path>
@@ -95,6 +104,15 @@
               <show_in_store>1</show_in_store>
               <sort_order>8</sort_order>
             </specificcountry>
+             <sort_order translate="label">
+                            <label>Sort Order</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>100</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <frontend_class>validate-number</frontend_class>
+                        </sort_order>
             <min_order_total translate="label">
                 <label>Minimum Order Total</label>
                 <frontend_type>text</frontend_type>
