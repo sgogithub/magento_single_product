@@ -50,7 +50,6 @@
       <epaybri>
         <active>1</active>
         <model>epaybri/paymentmethod</model>
-        <order_status>pending</order_status>
         <title>Epay Bri</title>
         <allowspecific>0</allowspecific>
         <payment_action>sale</payment_action>

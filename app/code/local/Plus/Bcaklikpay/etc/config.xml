@@ -50,7 +50,6 @@
       <bcaklikpay>
         <active>1</active>
         <model>bcaklikpay/paymentmethod</model>
-        <order_status>pending</order_status>
         <title>Bca Klik Pay</title>
         <allowspecific>0</allowspecific>
         <payment_action>sale</payment_action>

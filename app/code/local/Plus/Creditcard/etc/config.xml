@@ -50,7 +50,6 @@
       <creditcard>
         <active>1</active>
         <model>creditcard/paymentmethod</model>
-        <order_status>pending</order_status>
         <title>Credit Card</title>
         <allowspecific>0</allowspecific>
         <payment_action>sale</payment_action>

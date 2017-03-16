@@ -50,7 +50,6 @@
       <mandiriib>
         <active>1</active>
         <model>mandiriib/paymentmethod</model>
-        <order_status>pending</order_status>
         <title>Mandiri Internet Banking</title>
         <allowspecific>0</allowspecific>
         <payment_action>sale</payment_action>
