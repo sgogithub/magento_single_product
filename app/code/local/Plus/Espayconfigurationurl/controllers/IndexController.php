@@ -72,7 +72,7 @@ class Plus_Espayconfigurationurl_IndexController extends Mage_Core_Controller_Fr
        if ($signature === $selfSignature) {
             if ($webServicePassword == $password) {
                 $orderData = $order->getData();
-                var_dump($orderData);
+                #var_dump($orderData);
                 if (!empty($orderData)) {
                     
                     if ($orderData['status'] === $defaultPaymentStatus) {
