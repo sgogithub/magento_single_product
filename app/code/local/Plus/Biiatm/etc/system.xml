@@ -69,7 +69,6 @@
             <order_status translate="label">
               <label>New order status</label>
               <frontend_type>select</frontend_type>
-              <config_path>payment/biiatm/default_order_status</config_path>
               <source_model>adminhtml/system_config_source_order_status</source_model>
               <show_in_default>1</show_in_default>
               <show_in_website>1</show_in_website>
