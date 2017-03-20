@@ -68,11 +68,9 @@ class Plus_Espayconfigurationurl_IndexController extends Mage_Core_Controller_Fr
         
         $defaultPaymentStatus = Mage::getStoreConfig('payment/' . $method . '/order_status');
         $selfSignature = $this->_generateTrxSignature($rqDatetime, $orderId, $mode, $method);
-        $signature = $selfSignature = 'a';
        if ($signature === $selfSignature) {
             if ($webServicePassword == $password) {
                 $orderData = $order->getData();
-                #var_dump($orderData);
                 if (!empty($orderData)) {
                     
                     if ($orderData['status'] === $defaultPaymentStatus) {
